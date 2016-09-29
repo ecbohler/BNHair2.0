@@ -27,3 +27,8 @@
 .element_space {
   padding-right: 100px;
 }
+
+.center-pic {
+  margin-left: auto;
+  margin-right: auto;
+}
