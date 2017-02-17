@@ -63262,3 +63262,883 @@ ActionController::RoutingError (No route matches [GET] "/assets/assets/fonts/fon
   Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
   Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
   Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (32.7ms)
+
+
+Started GET "/" for ::1 at 2016-12-09 16:01:56 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (13.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ContentController#index as HTML
+  Rendered content/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 2239ms (Views: 2219.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/agency.self-5627dd166371fd83cb8741272de773c6084cd096964880c1cb8ca808d2d03414.css?body=1" for ::1 at 2016-12-09 16:01:59 -0800
+
+
+Started GET "/assets/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-12-09 16:01:59 -0800
+
+
+Started GET "/assets/bootstrap.min.self-bb7653a65a39ebe9c80b83e3ad40eb9ca749b97969425372c06f9c094a230ebe.css?body=1" for ::1 at 2016-12-09 16:01:59 -0800
+
+
+Started GET "/assets/font-awesome.self-9a0f521ea8653d6257ff4d69d01cf05f2e84f52f9157762e81ba0bdb7f9d2e70.css?body=1" for ::1 at 2016-12-09 16:01:59 -0800
+
+
+Started GET "/assets/style.self-770d346b5bc754b49ca2c36851e8453720dd6dd76d8d79b9b6f9b3cb7c85cffe.css?body=1" for ::1 at 2016-12-09 16:01:59 -0800
+
+
+Started GET "/assets/application.self-f78feb67e8049abf326e5f19e9ab2ba7f61b9f1fb25454cd35f52b7a3ef8936a.css?body=1" for ::1 at 2016-12-09 16:01:59 -0800
+
+
+Started GET "/assets/bootstrap-sass-official/assets/stylesheets/_bootstrap.self-5576f31b57cdecebf6d33a8563e541f243efc1cedab431026388fe5995fc1054.css?body=1" for ::1 at 2016-12-09 16:01:59 -0800
+
+
+Started GET "/assets/bootstrap.min.css" for ::1 at 2016-12-09 16:01:59 -0800
+
+
+Started GET "/assets/agency.css" for ::1 at 2016-12-09 16:01:59 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/font-awesome.min.css" for ::1 at 2016-12-09 16:01:59 -0800
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for ::1 at 2016-12-09 16:01:59 -0800
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-12-09 16:01:59 -0800
+
+
+Started GET "/assets/angular/angular.self-3baa2c9049766d4c7aa7f91d102516dcb1c41428510e6bab431bf04d95e5731d.js?body=1" for ::1 at 2016-12-09 16:01:59 -0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-12-09 16:01:59 -0800
+
+
+Started GET "/assets/react.self-fede65fd9a4acabec5ef1256b80983a6e6e8a68dec5eca279f6923ca213f7228.js?body=1" for ::1 at 2016-12-09 16:01:59 -0800
+
+
+Started GET "/assets/react_ujs_mount.self-69e74f4eea1a8726d3c4365387f2e671fc1f3a85977e4a0fb29649a19e78a49e.js?body=1" for ::1 at 2016-12-09 16:01:59 -0800
+
+
+Started GET "/assets/react_ujs_turbolinks.self-194cee0be75f9bf71a5e74a3261fd0923879561f3797642f7c00c8c89378fdb9.js?body=1" for ::1 at 2016-12-09 16:01:59 -0800
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for ::1 at 2016-12-09 16:01:59 -0800
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for ::1 at 2016-12-09 16:01:59 -0800
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for ::1 at 2016-12-09 16:01:59 -0800
+
+
+Started GET "/assets/react_ujs_event_setup.self-7f4f5dc5b4aa79c2fdd84fc6283f7615df9d55ecb52a0707f37d649094555735.js?body=1" for ::1 at 2016-12-09 16:01:59 -0800
+
+
+Started GET "/assets/react_ujs.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for ::1 at 2016-12-09 16:01:59 -0800
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-12-09 16:01:59 -0800
+
+
+Started GET "/assets/agency.self-a88f03fe9650b426169087aab258cb88babf9794ae83c79c9994f09114254470.js?body=1" for ::1 at 2016-12-09 16:01:59 -0800
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-12-09 16:01:59 -0800
+
+
+Started GET "/assets/cbpAnimatedHeader.self-b361597222bdd19120baa62007b868abdb95aec3b1151778e66ecca9ecf7d4d3.js?body=1" for ::1 at 2016-12-09 16:01:59 -0800
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2016-12-09 16:01:59 -0800
+
+
+Started GET "/assets/contact_me.self-d5776c95ceb93f825045d01514bf3c4938b90f1309b19c3a6efbe26b62e09465.js?body=1" for ::1 at 2016-12-09 16:01:59 -0800
+
+
+Started GET "/assets/jqBootstrapValidation.self-8634f60ded7baed71adee5481c39ec7bc3ab53b7a1df0b6706cc82529eae7d6f.js?body=1" for ::1 at 2016-12-09 16:01:59 -0800
+
+
+Started GET "/assets/angular_test_app.self-5bf95d88a0b1b69774fd38f96131ca5a2935ef76d20af367f0b97491bd453cf4.js?body=1" for ::1 at 2016-12-09 16:01:59 -0800
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for ::1 at 2016-12-09 16:01:59 -0800
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-044226e1550b9924c5b3b7a6fbba48d9beb4ace62b4893cac588f4eeea038e60.js?body=1" for ::1 at 2016-12-09 16:01:59 -0800
+
+
+Started GET "/assets/application.self-e088abdec24c652728c331cc53f5d2286e096b6080fa2bacfba79c56847e932e.js?body=1" for ::1 at 2016-12-09 16:01:59 -0800
+
+
+Started GET "/assets/font-awesome.min.self-a3de9306bb012b10e5d64834d81bf8aa023ca74395fedf7d9493ca41c632e074.css?body=1" for ::1 at 2016-12-09 16:02:00 -0800
+
+
+Started GET "/assets/jquery.js" for ::1 at 2016-12-09 16:02:00 -0800
+
+
+Started GET "/assets/bootstrap.min.js" for ::1 at 2016-12-09 16:02:00 -0800
+
+
+Started GET "/assets/bootstrap.css.map" for ::1 at 2016-12-09 16:02:00 -0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+  puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+  puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+  puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `call'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+
+
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (11.5ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (19.7ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (72.1ms)
+
+
+Started GET "/assets/classie.js" for ::1 at 2016-12-09 16:02:00 -0800
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+
+
+Started GET "/assets/cbpAnimatedHeader.js" for ::1 at 2016-12-09 16:02:00 -0800
+
+
+Started GET "/assets/jqBootstrapValidation.js" for ::1 at 2016-12-09 16:02:00 -0800
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+
+
+Started GET "/assets/contact_me.js" for ::1 at 2016-12-09 16:02:00 -0800
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+
+
+Started GET "/assets/bnhair_3.jpg" for ::1 at 2016-12-09 16:02:00 -0800
+
+
+Started GET "/assets/bnhair_4.jpg" for ::1 at 2016-12-09 16:02:00 -0800
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (28.1ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+
+
+Started GET "/assets/bnhair_5.jpg" for ::1 at 2016-12-09 16:02:00 -0800
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (54.2ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for ::1 at 2016-12-09 16:02:00 -0800
+
+
+Started GET "/assets/bnhair_6.jpg" for ::1 at 2016-12-09 16:02:00 -0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+  puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+  puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+  puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `call'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+
+
+
+
+Started GET "/assets/pricing.jpg" for ::1 at 2016-12-09 16:02:00 -0800
+
+
+Started GET "/assets/new%20brittany5.jpeg" for ::1 at 2016-12-09 16:02:00 -0800
+
+
+Started GET "/assets/new%20brittany2.jpeg" for ::1 at 2016-12-09 16:02:00 -0800
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+
+
+Started GET "/assets/new%20brittany4.jpeg" for ::1 at 2016-12-09 16:02:00 -0800
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+
+
+Started GET "/assets/bnhair_brittany.jpg" for ::1 at 2016-12-09 16:02:00 -0800
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.7ms)
+
+
+Started GET "/assets/bnhair_jill2.jpg" for ::1 at 2016-12-09 16:02:00 -0800
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (26.0ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (13.1ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (27.4ms)
+
+
+Started GET "/assets/bnhair_1.jpg" for ::1 at 2016-12-09 16:02:00 -0800
+
+
+Started GET "/assets/bnhair_7.jpg" for ::1 at 2016-12-09 16:02:00 -0800
+
+
+Started GET "/assets/..assets/fonts/fontawesome-webfont.woff" for ::1 at 2016-12-09 16:02:00 -0800
+
+
+Started GET "/assets/smoke_gray.jpg" for ::1 at 2016-12-09 16:02:00 -0800
+
+
+Started GET "/assets/map-image.png" for ::1 at 2016-12-09 16:02:00 -0800
+
+
+Started GET "/assets/assets/fonts/fontawesome-webfont.ttf" for ::1 at 2016-12-09 16:02:00 -0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/assets/fonts/fontawesome-webfont.ttf"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+  puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+  puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+  puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `call'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+
+
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.4ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (26.8ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (21.3ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (45.2ms)
+
+
+Started GET "/assets/assets/fonts/fontawesome-webfont.woff" for ::1 at 2016-12-09 16:02:01 -0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/assets/fonts/fontawesome-webfont.woff"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+  puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+  puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+  puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `call'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+
+
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (25.1ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.0ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (32.4ms)
+
+
+Started GET "/" for ::1 at 2016-12-09 16:28:21 -0800
+Processing by ContentController#index as HTML
+  Rendered content/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 320ms (Views: 316.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css" for ::1 at 2016-12-09 16:28:22 -0800
+
+
+Started GET "/assets/font-awesome.min.css" for ::1 at 2016-12-09 16:28:22 -0800
+
+
+Started GET "/assets/agency.css" for ::1 at 2016-12-09 16:28:22 -0800
+
+
+Started GET "/assets/jquery.js" for ::1 at 2016-12-09 16:28:22 -0800
+
+
+Started GET "/assets/bootstrap.min.js" for ::1 at 2016-12-09 16:28:22 -0800
+
+
+Started GET "/assets/classie.js" for ::1 at 2016-12-09 16:28:22 -0800
+
+
+Started GET "/assets/cbpAnimatedHeader.js" for ::1 at 2016-12-09 16:28:22 -0800
+
+
+Started GET "/assets/jqBootstrapValidation.js" for ::1 at 2016-12-09 16:28:22 -0800
+
+
+Started GET "/assets/contact_me.js" for ::1 at 2016-12-09 16:28:22 -0800
+
+
+Started GET "/assets/bnhair_5.jpg" for ::1 at 2016-12-09 16:28:22 -0800
+
+
+Started GET "/assets/bnhair_1.jpg" for ::1 at 2016-12-09 16:28:22 -0800
+
+
+Started GET "/assets/bnhair_7.jpg" for ::1 at 2016-12-09 16:28:22 -0800
+
+
+Started GET "/assets/new%20brittany5.jpeg" for ::1 at 2016-12-09 16:28:22 -0800
+
+
+Started GET "/assets/bnhair_3.jpg" for ::1 at 2016-12-09 16:28:22 -0800
+
+
+Started GET "/assets/new%20brittany4.jpeg" for ::1 at 2016-12-09 16:28:22 -0800
+
+
+Started GET "/assets/bnhair_4.jpg" for ::1 at 2016-12-09 16:28:22 -0800
+
+
+Started GET "/assets/bnhair_6.jpg" for ::1 at 2016-12-09 16:28:22 -0800
+
+
+Started GET "/assets/pricing.jpg" for ::1 at 2016-12-09 16:28:22 -0800
+
+
+Started GET "/assets/new%20brittany2.jpeg" for ::1 at 2016-12-09 16:28:22 -0800
+
+
+Started GET "/assets/bnhair_brittany.jpg" for ::1 at 2016-12-09 16:28:22 -0800
+
+
+Started GET "/assets/bnhair_jill2.jpg" for ::1 at 2016-12-09 16:28:22 -0800
+
+
+Started GET "/assets/smoke_gray.jpg" for ::1 at 2016-12-09 16:28:22 -0800
+
+
+Started GET "/assets/..assets/fonts/fontawesome-webfont.woff" for ::1 at 2016-12-09 16:28:22 -0800
+
+
+Started GET "/assets/map-image.png" for ::1 at 2016-12-09 16:28:22 -0800
+
+
+Started GET "/assets/assets/fonts/fontawesome-webfont.ttf" for ::1 at 2016-12-09 16:28:22 -0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/assets/fonts/fontawesome-webfont.ttf"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+  puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+  puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+  puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `call'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+
+
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (30.4ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (96.4ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (39.4ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (67.2ms)
+
+
+Started GET "/assets/assets/fonts/fontawesome-webfont.woff" for ::1 at 2016-12-09 16:28:22 -0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/assets/fonts/fontawesome-webfont.woff"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+  puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+  puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+  puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `call'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+
+
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (19.9ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (48.9ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (71.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-09 16:29:25 -0800
+Processing by ContentController#index as HTML
+  Rendered content/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 716ms (Views: 711.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css" for ::1 at 2016-12-09 16:29:26 -0800
+
+
+Started GET "/assets/agency.css" for ::1 at 2016-12-09 16:29:26 -0800
+
+
+Started GET "/assets/font-awesome.min.css" for ::1 at 2016-12-09 16:29:26 -0800
+
+
+Started GET "/assets/jquery.js" for ::1 at 2016-12-09 16:29:26 -0800
+
+
+Started GET "/assets/bootstrap.min.js" for ::1 at 2016-12-09 16:29:26 -0800
+
+
+Started GET "/assets/classie.js" for ::1 at 2016-12-09 16:29:26 -0800
+
+
+Started GET "/assets/cbpAnimatedHeader.js" for ::1 at 2016-12-09 16:29:26 -0800
+
+
+Started GET "/assets/jqBootstrapValidation.js" for ::1 at 2016-12-09 16:29:26 -0800
+
+
+Started GET "/assets/contact_me.js" for ::1 at 2016-12-09 16:29:26 -0800
+
+
+Started GET "/assets/bnhair_1.jpg" for ::1 at 2016-12-09 16:29:26 -0800
+
+
+Started GET "/assets/bnhair_7.jpg" for ::1 at 2016-12-09 16:29:26 -0800
+
+
+Started GET "/assets/bnhair_3.jpg" for ::1 at 2016-12-09 16:29:26 -0800
+
+
+Started GET "/assets/bnhair_4.jpg" for ::1 at 2016-12-09 16:29:26 -0800
+
+
+Started GET "/assets/bnhair_5.jpg" for ::1 at 2016-12-09 16:29:26 -0800
+
+
+Started GET "/assets/bnhair_6.jpg" for ::1 at 2016-12-09 16:29:26 -0800
+
+
+Started GET "/assets/pricing.jpg" for ::1 at 2016-12-09 16:29:26 -0800
+
+
+Started GET "/assets/new%20brittany5.jpeg" for ::1 at 2016-12-09 16:29:26 -0800
+
+
+Started GET "/assets/new%20brittany2.jpeg" for ::1 at 2016-12-09 16:29:26 -0800
+
+
+Started GET "/assets/new%20brittany4.jpeg" for ::1 at 2016-12-09 16:29:26 -0800
+
+
+Started GET "/assets/bnhair_brittany.jpg" for ::1 at 2016-12-09 16:29:26 -0800
+
+
+Started GET "/assets/bnhair_jill2.jpg" for ::1 at 2016-12-09 16:29:26 -0800
+
+
+Started GET "/assets/smoke_gray.jpg" for ::1 at 2016-12-09 16:29:26 -0800
+
+
+Started GET "/assets/..assets/fonts/fontawesome-webfont.woff" for ::1 at 2016-12-09 16:29:26 -0800
+
+
+Started GET "/assets/map-image.png" for ::1 at 2016-12-09 16:29:26 -0800
+
+
+Started GET "/assets/assets/fonts/fontawesome-webfont.ttf" for ::1 at 2016-12-09 16:29:26 -0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/assets/fonts/fontawesome-webfont.ttf"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+  puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+  puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+  puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `call'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+
+
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.1ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (25.1ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (55.4ms)
+
+
+Started GET "/assets/assets/fonts/fontawesome-webfont.woff" for ::1 at 2016-12-09 16:29:26 -0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/assets/fonts/fontawesome-webfont.woff"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+  puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+  puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+  puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `call'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+
+
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.9ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (19.0ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (34.1ms)
+
+
+Started GET "/" for ::1 at 2016-12-09 16:31:50 -0800
+Processing by ContentController#index as HTML
+  Rendered content/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 210ms (Views: 201.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css" for ::1 at 2016-12-09 16:31:51 -0800
+
+
+Started GET "/assets/agency.css" for ::1 at 2016-12-09 16:31:51 -0800
+
+
+Started GET "/assets/font-awesome.min.css" for ::1 at 2016-12-09 16:31:51 -0800
+
+
+Started GET "/assets/jquery.js" for ::1 at 2016-12-09 16:31:51 -0800
+
+
+Started GET "/assets/bootstrap.min.js" for ::1 at 2016-12-09 16:31:51 -0800
+
+
+Started GET "/assets/classie.js" for ::1 at 2016-12-09 16:31:51 -0800
+
+
+Started GET "/assets/cbpAnimatedHeader.js" for ::1 at 2016-12-09 16:31:51 -0800
+
+
+Started GET "/assets/jqBootstrapValidation.js" for ::1 at 2016-12-09 16:31:51 -0800
+
+
+Started GET "/assets/bnhairlogo.jpg" for ::1 at 2016-12-09 16:31:51 -0800
+
+
+Started GET "/assets/contact_me.js" for ::1 at 2016-12-09 16:31:51 -0800
+
+
+Started GET "/assets/bnhair_1.jpg" for ::1 at 2016-12-09 16:31:51 -0800
+
+
+Started GET "/assets/..assets/fonts/fontawesome-webfont.woff" for ::1 at 2016-12-09 16:31:51 -0800
+
+
+Started GET "/assets/smoke_gray.jpg" for ::1 at 2016-12-09 16:31:51 -0800
+
+
+Started GET "/assets/bnhair_3.jpg" for ::1 at 2016-12-09 16:31:51 -0800
+
+
+Started GET "/assets/bnhair_4.jpg" for ::1 at 2016-12-09 16:31:51 -0800
+
+
+Started GET "/assets/bnhair_5.jpg" for ::1 at 2016-12-09 16:31:51 -0800
+
+
+Started GET "/assets/bnhair_6.jpg" for ::1 at 2016-12-09 16:31:51 -0800
+
+
+Started GET "/assets/assets/fonts/fontawesome-webfont.woff" for ::1 at 2016-12-09 16:31:51 -0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/assets/fonts/fontawesome-webfont.woff"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+  puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+  puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+  puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `call'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+
+
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.4ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (34.2ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.9ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (31.3ms)
+
+
+Started GET "/assets/assets/fonts/fontawesome-webfont.ttf" for ::1 at 2016-12-09 16:31:51 -0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/assets/fonts/fontawesome-webfont.ttf"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+  puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+  puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+  puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `call'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+
+
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (25.4ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.4ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (23.8ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/ericabohler/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (41.9ms)
+
+
+Started GET "/assets/bnhair_jill2.jpg" for ::1 at 2016-12-09 16:31:52 -0800
+
+
+Started GET "/assets/bnhair_brittany.jpg" for ::1 at 2016-12-09 16:31:52 -0800
+
+
+Started GET "/assets/map-image.png" for ::1 at 2016-12-09 16:31:52 -0800
+
+
+Started GET "/assets/new%20brittany4.jpeg" for ::1 at 2016-12-09 16:31:52 -0800
+
+
+Started GET "/assets/pricing.jpg" for ::1 at 2016-12-09 16:31:52 -0800
+
+
+Started GET "/assets/new%20brittany5.jpeg" for ::1 at 2016-12-09 16:31:52 -0800
+
+
+Started GET "/assets/new%20brittany2.jpeg" for ::1 at 2016-12-09 16:31:52 -0800
+
+
+Started GET "/assets/bnhair_7.jpg" for ::1 at 2016-12-09 16:31:52 -0800
